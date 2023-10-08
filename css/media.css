@@ -1,0 +1,133 @@
+@media(max-width: 1115px){
+    .header__menu {
+        justify-content: center;
+    }
+    .creator__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .creator__main__tittle {
+        text-align: center;
+    }
+    .hero__wrapper {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 1000px){
+    .header__menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header__menu__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .catalog__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .connected__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .gear__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .technology__wrapper {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .technology__wrapper__info__item  {
+        align-items: center;
+        text-align: center;
+    }
+    .technology__text {
+        text-align: center;
+    }
+    .connected__content__item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .connected__text {
+        text-align: center;
+        align-items: center;
+    }
+    .connected__wrapper {
+        gap: 15px;  
+    }
+}
+
+@media(max-width: 760px){
+    .header__menu {
+        flex-direction: column;
+    }
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 485px){
+    .header__menu__link {
+        flex-direction: column;
+    }
+    .footer__sub {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .technology__wrapper__info__item {
+        width: 350px;
+    }
+    .connected__content__item {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .connected__subtittle {
+        text-align: center;
+        align-items: center;
+    }
+    .hero__tittle {
+        font-size: 45px;
+    }
+    .hero__subtittle {
+        max-width: 320px;
+    }
+    .catalog__wrapper__sounds {
+        width: 70%;
+    }
+    .gear__wrapper__item {
+        width: 60%;
+    }
+}
+
+@media(max-width: 370px){
+    .technology__wrapper__info__item {
+        width: 100%;
+    }
+    .creator__item {
+        width: 100%;
+    }
+    .free_sounds {
+        flex-direction: column;
+    }
+    .connected__content__item {
+        width: 100%;
+    }
+    .technology__subtittle {
+        text-align: center;
+        align-items: center;
+    }
+}
+
